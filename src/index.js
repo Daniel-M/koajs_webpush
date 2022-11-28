@@ -20,12 +20,12 @@ const webpush = require('web-push')
 
 //storing the keys in variables
 const publicVapidKey =
-  'BFCYuTC-jDNCCVeBIx1MPUVEdtmWph60epIs9KQKG2e3fZtR-dU0DCIS8LszJtzJFxieT9M36EIqRHi8aWljQNc'
-const privateVapidKey = ''
+  'BDc3sPWsbMsY95eIyb-gR-xRR5cS4V3x9cNs1nHx1j_Jnlk-xwtGWuDHdOWyDvtUd3yJdap1iUY7ibmTkRv7L9E'
+const privateVapidKey = 'lwtc1FBPLn53TOnPoZNwF22cLphf63wrQ6c2syEmK_s'
 
 //setting vapid keys details
 webpush.setVapidDetails(
-  process.env.WEBPUSH_MAILTO,
+  "mailto:mail@example.com",
   publicVapidKey,
   privateVapidKey
 )
